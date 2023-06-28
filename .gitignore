@@ -1,0 +1,7 @@
+*.pyc
+venv/
+*.egg-info/
+.vscode/
+.mypy_cache/
+rotational.egg-info/
+rotational/__pycache__/

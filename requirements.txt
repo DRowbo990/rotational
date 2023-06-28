@@ -1,0 +1,7 @@
+numpy
+pylint
+black
+isort
+pydocstyle
+mypy
+matplotlib

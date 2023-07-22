@@ -49,7 +49,7 @@ rotational.vector("vector head", "translation vector", "rotation angle")
 It should be noted that all vectors are in xyz coordinates. 
 
 # Running Compliance Tests Instructions
-An effort has been made to comply with the coding standards of pylint, mypy, and isort. The above commands will run the compliance tests. The `rotational.py` file should pass all tests. The Black code formatter was used to format the code.
+An effort has been made to comply with the coding standards of pylint, mypy, and isort. The commands below will run the compliance tests. The `rotational.py` file should pass all tests. The Black code formatter was used to format the code.
 
 1. pip install pylint mypy isort 
 2. pylint rotational.py && mypy rotational.py && isort rotational.py

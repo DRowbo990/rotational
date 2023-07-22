@@ -41,7 +41,7 @@ The `rotational` package can be run from the command line or used in a larger pr
 ```
 rotational.point("point vector", "translation vector", "rotation angle")
 
-rotational.vector("vector origin", "vector head", "translation vector", "rotation angle")
+rotational.vector("vector head", "translation vector", "rotation angle")
 ```
 It should be noted that all vectors are in xyz coordinates. 
 
@@ -52,34 +52,34 @@ It should be noted that all vectors are in xyz coordinates.
 An effort has been made to comply with the coding standards of pylint, mypy, and isort. The above commands will run the compliance tests. The `rotational.py` file should pass all tests. The Black code formatter was used to format the code.
 
 # Visuals
-These visuals are of different coordinate transforms. It should be noted that the transforms are based off the origin in all cases. This is because we are rotating and/or translating the coordinate frame, not the object. This makes it easier to see the effects of the transforms on the same graph. We can look at the origin and see where the object is in both coordinate frames. 
+These visuals are of different coordinate transforms. It should be noted that the transforms are based off the origin in all cases. This is because we are rotating and/or translating the coordinate frame, not the object. This makes it easier to see the effects of the transforms on the same graph as the original coordinate frame is always at the center of the graph. 
 
-### The first and second images are the point (5,5) rotated 90&deg; in the xy plane.<br>
+### The first and second images are the point (5,5,0) rotated 90&deg; in the xy plane.<br>
 
 ![alt text](images/p90.png "1. A point rotated 90&deg;")
 ![alt text](images/p90t.png "2. A point rotated 90&deg; in the xy plane")
 
-### The third and fourth images are a vector with length 5 rotated 90&deg; in the xy plane.<br>
+### The third and fourth images are a vector with length (5,5,0) rotated 90&deg; in the xy plane.<br>
 
 ![alt text](images/v90.png "3. A vector rotated 90&deg;")
 ![alt text](images/v90t.png "4. A vector rotated 90&deg; in the xy plane")
 
-### The fifth and sixth images are a point translated by (5,5) in the xy plane.<br>
+### The fifth and sixth images are a point translated by (5,5,0) in the xy plane.<br>
 
 ![alt text](images/pt.png "5. A point translated by (5,5) in the xy plane")
 ![alt text](images/ptt.png "6. A point translated by (5,5) in the xy plane")
 
-### The seventh and eighth images are a vector translated by (5,5) in the xy plane.<br>
+### The seventh and eighth images are a coordinate frame with a vector of length (3,3,0) translated by (5,5,0) in the xy plane.<br>
 
 ![alt text](images/vt.png "7. A vector translated by (5,5) in the xy plane")
 ![alt text](images/vtt.png "8. A vector translated by (5,5) in the xy plane")
 
-### The ninth and tenth images are a point at (3,3) rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane.<br>
+### The ninth and tenth images are a point at (3,3,0) rotated 90&deg; in the xy plane and then translated by (5,5,0) in the xy plane.<br>
 
 ![alt text](images/fp.png "9. A point rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane")
 ![alt text](images/fpt.png "10. A point rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane")
 
-### The eleventh and twelfth images are a vector of length 3 rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane.<br>
+### The eleventh and twelfth images are a coordinate frame with a vector of length (3,3,0) rotated 90&deg; in the xy plane and then translated by (5,5,0) in the xy plane.<br>
 
 ![alt text](images/vf.png "11. A vector rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane")
 ![alt text](images/vft.png "12. A vector rotated 90&deg; in the xy plane and then translated by (5,5) in the xy plane")

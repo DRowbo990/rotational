@@ -2,9 +2,9 @@
 # Coordinate Transformations
 
 # Description
-This code is designed to take in an axis with a vector or a point in 3D space and apply a rotation and/or a translation to the axis. This helps the user see the vector or point in a different coordinate plane after transforming the coordinate frame. It should be noted, the program will only rotate the object in the xy plane. To rotate in the z plane, the rotation matrix would need to be adjusted.
+This code is designed to take in an axis with a vector or a point in 3D space and apply a rotation and/or a translation to the axis. This helps the user see the vector or point in a different coordinate plane after transforming the coordinate frame. It should be noted, the program will only rotate the axis in the xy plane. To rotate in the z plane, the rotation matrix would need to be adjusted.
 
-The main file is `rotational.py`. This file contains the functions to rotate and translate the object. It is a single file that can be run from Python in the command line or used in a larger project via import. The `images` folder contains the images used in this README. Instructions on how to run the program are contained below. When used, the program is given the original points, translation, and rotation angle desired. The program will then output the original object and the rotated and/or translated object on the same graph. This enables the user to see the effects of the transforms on the same graph.
+The main file is `rotational.py`. This file contains the functions to rotate and translate the axis. It is a single file that can be run from Python in the command line or used in a larger project via import. The `images` folder contains the images used in this README. Instructions on how to run the program are contained below. When used, the program is given the original points, translation, and rotation angle desired. The program will then output the original axis and the rotated and/or translated axis on the same graph. This enables the user to see the effects of the transforms on the same graph.
 
 # Install Instructions
 ## Creating and activating a Python virtual environment
